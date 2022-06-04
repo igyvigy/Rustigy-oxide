@@ -94,6 +94,9 @@ namespace Oxide.Plugins
                 case "gainexp":
                     CommandGainExp(player.IPlayer, command, args);
                     return true;
+                case "spawn":
+                    CommandSpawn(player.IPlayer, command, args);
+                    return true;
                 default: return null;
             }
         }
@@ -160,6 +163,20 @@ namespace Oxide.Plugins
             PlayerInfo playerInfo = LoadPlayerInfo(player.Id);
             playerInfo.gainExp(exp, player);
             SavePlayerInfo(player.Id, playerInfo);
+        }
+        private void CommandSpawn(IPlayer player, string command, string[] args)
+        {
+            string carPrefab = "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab";
+            string boatPrefab = "assets/content/vehicles/boats/rowboat/rowboat.prefab";
+            string boarPrefab = "assets/rust.ai/agents/boar/boar.prefab";
+            string stagPrefab = "assets/rust.ai/agents/stag/stag.prefab";
+            string pr1 = "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab";
+            string chickenPrefab = "assets/rust.ai/agents/chicken/chicken.prefab";
+
+            Vector3 pos = new Vector3(player.Position().X, player.Position().Y, player.Position().Z);
+
+            BaseEntity newEntity = GameManager.server.CreateEntity(boarPrefab, pos, new Quaternion());
+            newEntity.Spawn();
         }
         #endregion
 
@@ -244,7 +261,7 @@ namespace Oxide.Plugins
         #region Entity
         void OnEntityDeath(BaseCombatEntity entity, HitInfo info)
         {
-            Puts("OnEntityDeath name: " + entity.ShortPrefabName); // + ", prefab: " + entity.PrefabName);
+            Puts("OnEntityDeath name: " + entity.ShortPrefabName + ", prefab: " + entity.PrefabName);
 
             if (info.InitiatorPlayer != null)
             {

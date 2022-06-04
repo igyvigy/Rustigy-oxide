@@ -17,7 +17,9 @@
     "roadsign8": 5.0,
     "chicken": 10.0,
     "stag": 50.0,
-    "boar": 100.0
+    "boar": 100.0,
+    "wolf": 150.0,
+	"polarbear": 200.0
   },
   "VersionNumber": {
     "Major": 0,
