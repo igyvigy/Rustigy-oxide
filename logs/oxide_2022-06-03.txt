@@ -1,0 +1,25 @@
+22:25 [Info] Loading Oxide Core v2.0.4012...
+22:25 [Info] Loading extensions...
+22:25 [Info] Loaded extension CSharp v2.0.4049 by Oxide Team and Contributors
+22:25 [Info] Loaded extension MySql v2.0.3760 by Oxide Team and Contributors
+22:25 [Info] Loaded extension Rust v2.0.5532 by Oxide Team and Contributors
+22:25 [Info] Loaded extension SQLite v2.0.3762 by Oxide Team and Contributors
+22:25 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+22:25 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+22:25 [Info] Local compiler MD5: 0
+22:25 [Info] Compiler MD5 hash did not match, downloading latest
+22:25 [Info] Downloading Compiler.exe for .cs (C#) plugin compilation
+22:25 [Info] Local MD5 hash did not match remote MD5 hash for Compiler.exe, attempting download again
+22:25 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+22:25 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+22:25 [Info] Using Covalence provider for game 'Rust'
+22:25 [Info] Loading plugins...
+22:25 [Info] Loaded plugin Rust v2.0.5532 by Oxide Team and Contributors
+22:25 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+22:33 [Info] IP address from external API: 77.123.30.157
+22:34 [Info] Oxide.Rust Version: 2.0.5532
+23:03 [Error] Plugin Rustigy.cs is a uMod plugin, not an Oxide plugin. Please downgrade to the Oxide version if available.
+23:18 [Error] Plugin filename Rustigy.cs must match the main class IgyRust (should be IgyRust.cs)
+23:19 [Info] Rustigy was compiled successfully in 2126ms
+23:19 [Info] [Rustigy] Init works!
+23:19 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy

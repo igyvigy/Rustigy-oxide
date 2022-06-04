@@ -1,0 +1,1437 @@
+10:42 [Info] Loading Oxide Core v2.0.4012...
+10:42 [Info] Loading extensions...
+10:42 [Info] Loaded extension CSharp v2.0.4049 by Oxide Team and Contributors
+10:42 [Info] Loaded extension MySql v2.0.3760 by Oxide Team and Contributors
+10:42 [Info] Loaded extension Rust v2.0.5532 by Oxide Team and Contributors
+10:42 [Info] Loaded extension SQLite v2.0.3762 by Oxide Team and Contributors
+10:42 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+10:42 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+10:42 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+10:42 [Info] Using Covalence provider for game 'Rust'
+10:42 [Info] Loading plugins...
+10:42 [Info] Loaded plugin Rust v2.0.5532 by Oxide Team and Contributors
+10:42 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+10:42 [Info] Rustigy was compiled successfully in 0ms
+10:42 [Info] [Rustigy] Creating a new configuration file
+10:42 [Info] [Rustigy] Init works!
+10:42 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+10:48 [Info] IP address from external API: 77.123.30.157
+10:55 [Info] [Rustigy] OnPlayerConnected works!
+11:29 [Info] Rustigy was compiled successfully in 1998ms
+11:29 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+11:29 [Info] [Rustigy] Init works!
+11:29 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+11:32 [Info] [Rustigy] OnPlayerConnected works!igyVigy[76561198967060464]
+11:39 [Error] Error while compiling: Rustigy.cs(65,24): error CS0246: The type or namespace name `IPlayer' could not be found. Are you missing `Oxide.Core.Libraries.Covalence' using directive?
+11:40 [Info] Rustigy was compiled successfully in 415ms
+11:40 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+11:40 [Info] [Rustigy] Init works!
+11:40 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+11:40 [Info] [Rustigy] OnPlayerCommand works!: test, args: System.String[]
+11:41 [Info] [Rustigy] OnPlayerCommand works!: foo, args: System.String[]
+11:43 [Info] Rustigy was compiled successfully in 1821ms
+11:43 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+11:43 [Info] [Rustigy] Init works!
+11:43 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+11:43 [Info] [Rustigy] OnPlayerCommand works!: foo, args: System.String[]
+11:43 [Info] [Rustigy] OnUserCommand works!: foo, args: System.String[]
+11:52 [Info] Rustigy was compiled successfully in 2015ms
+11:52 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+11:52 [Info] [Rustigy] Init works!
+11:52 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+11:52 [Info] [Rustigy] OnPlayerCommand works!
+11:53 [Info] [Rustigy] OnPlayerCommand works!
+11:53 [Info] [Rustigy] igyVigy said: test
+11:56 [Info] [Rustigy] igyVigy said: fsdnfksod
+11:58 [Info] Loading Oxide Core v2.0.4012...
+11:58 [Info] Loading extensions...
+11:58 [Info] Loaded extension CSharp v2.0.4049 by Oxide Team and Contributors
+11:58 [Info] Loaded extension MySql v2.0.3760 by Oxide Team and Contributors
+11:58 [Info] Loaded extension Rust v2.0.5532 by Oxide Team and Contributors
+11:58 [Info] Loaded extension SQLite v2.0.3762 by Oxide Team and Contributors
+11:58 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+11:58 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+11:58 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+11:58 [Info] Using Covalence provider for game 'Rust'
+11:58 [Info] Loading plugins...
+11:58 [Info] Loaded plugin Rust v2.0.5532 by Oxide Team and Contributors
+11:58 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+11:58 [Info] Rustigy was compiled successfully in 0ms
+11:58 [Info] [Rustigy] Init works!
+11:58 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+12:04 [Info] IP address from external API: 77.123.30.157
+12:06 [Info] [Rustigy] OnPlayerConnected works!
+12:07 [Info] [Rustigy] OnPlayerCommand works!
+12:07 [Info] [Rustigy] OnPlayerCommand works!
+12:07 [Info] [Rustigy] OnPlayerCommand works!
+12:07 [Info] [Rustigy] OnPlayerCommand works!
+12:07 [Info] [Rustigy] OnPlayerCommand works!
+12:07 [Info] [Rustigy] OnPlayerCommand works!
+12:32 [Info] Rustigy was compiled successfully in 2241ms
+12:32 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+12:32 [Info] [Rustigy] Init works!
+12:32 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+12:35 [Info] Rustigy was compiled successfully in 1939ms
+12:35 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+12:35 [Info] [Rustigy] Init works!
+12:35 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+12:36 [Info] [Rustigy] OnPlayerConnected works!igyVigy[76561198967060464]
+12:37 [Info] [Rustigy] player commanded foo
+12:37 [Info] [Rustigy] Covalence.RustPlayer[76561198967060464, igyVigy]
+12:37 [Info] [Rustigy] player commanded heal
+12:37 [Info] [Rustigy] Covalence.RustPlayer[76561198967060464, igyVigy]
+12:37 [Info] [Rustigy] player commanded hurt
+12:37 [Info] [Rustigy] Covalence.RustPlayer[76561198967060464, igyVigy]
+12:37 [Info] [Rustigy] player commanded hurt
+12:37 [Info] [Rustigy] Covalence.RustPlayer[76561198967060464, igyVigy]
+12:37 [Info] [Rustigy] player commanded die
+12:37 [Info] [Rustigy] Covalence.RustPlayer[76561198967060464, igyVigy]
+12:48 [Info] [Rustigy] player commanded test
+12:48 [Info] [Rustigy] Covalence.RustPlayer[76561198967060464, igyVigy]
+12:55 [Info] Rustigy was compiled successfully in 2168ms
+12:55 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+12:55 [Info] [Rustigy] Rustigy initialized
+12:55 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+13:04 [Info] Rustigy was compiled successfully in 2280ms
+13:04 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+13:04 [Info] [Rustigy] Rustigy initialized
+13:04 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+13:09 [Info] Rustigy was compiled successfully in 2161ms
+13:09 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+13:09 [Info] [Rustigy] Rustigy initialized
+13:09 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+13:12 [Info] Rustigy was compiled successfully in 2264ms
+13:12 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+13:12 [Info] [Rustigy] Rustigy initialized
+13:12 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+13:19 [Info] Rustigy was compiled successfully in 2560ms
+13:19 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+13:19 [Info] [Rustigy] Rustigy initialized
+13:19 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+13:19 [Error] Failed to call hook 'OnPlayerCommand' on plugin 'Rustigy v0.1.0' (FormatException: Input string was not in a correct format.)
+  at System.Number.ParseSingle (System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt) [0x00083] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Single.Parse (System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Single.Parse (System.String s) [0x0000b] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at Oxide.Plugins.Rustigy.CommandHurt (Oxide.Core.Libraries.Covalence.IPlayer player, System.String command, System.String[] args) [0x0000f] in <c93c4f7f6b7145ee9642d14875bed430>:0 
+  at Oxide.Plugins.Rustigy.OnPlayerCommand (BasePlayer player, System.String command, System.String[] args) [0x00060] in <c93c4f7f6b7145ee9642d14875bed430>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00183] in <c93c4f7f6b7145ee9642d14875bed430>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+13:26 [Info] Rustigy was compiled successfully in 2158ms
+13:26 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+13:26 [Info] [Rustigy] Rustigy initialized
+13:26 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+14:38 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+14:38 [Info] PlayerInfo was compiled successfully in 2559ms
+14:38 [Error] Error while compiling: Rustigy.cs(59,33): error CS0103: The name `homesData' does not exist in the current context
+14:38 [Warning] A plugin has polluted the global namespace by defining Rustigy.PlayerInfo
+14:38 [Error] Unable to find main plugin class: PlayerInfo
+14:38 [Info] No previous version to rollback plugin: PlayerInfo
+14:50 [Error] Error while compiling: Rustigy.cs(43,54): error CS0246: The type or namespace name `PlayerInfo' could not be found. Are you missing `Facepunch.Models' using directive?
+14:52 [Error] Error while compiling: Rustigy.cs(43,54): error CS0246: The type or namespace name `PlayerInfo' could not be found. Are you missing `Facepunch.Models' using directive?
+14:56 [Info] Rustigy was compiled successfully in 2399ms
+14:56 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+14:56 [Info] [Rustigy] Rustigy initialized
+14:56 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+14:57 [Error] Failed to call hook 'OnPlayerCommand' on plugin 'Rustigy v0.1.0' (MissingMethodException: Default constructor not found for type Oxide.Plugins.PlayerInfo)
+  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x0007b] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Activator.CreateInstance[T] () [0x00015] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at Oxide.Core.DataFileSystem.ReadObject[T] (System.String name) [0x00009] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Plugins.Rustigy.LoadPlayerInfo (System.String playerId) [0x00011] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.Rustigy.CommandHome (Oxide.Core.Libraries.Covalence.IPlayer player, System.String command, System.String[] args) [0x00007] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.Rustigy.OnPlayerCommand (BasePlayer player, System.String command, System.String[] args) [0x0008a] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00183] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+14:58 [Error] Failed to call hook 'OnPlayerCommand' on plugin 'Rustigy v0.1.0' (MissingMethodException: Default constructor not found for type Oxide.Plugins.PlayerInfo)
+  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x0007b] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Activator.CreateInstance[T] () [0x00015] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at Oxide.Core.DataFileSystem.ReadObject[T] (System.String name) [0x00009] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Plugins.Rustigy.LoadPlayerInfo (System.String playerId) [0x00011] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.Rustigy.CommandSetHome (Oxide.Core.Libraries.Covalence.IPlayer player, System.String command, System.String[] args) [0x00007] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.Rustigy.OnPlayerCommand (BasePlayer player, System.String command, System.String[] args) [0x00075] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00183] in <60879cd8ad7349659defb44d3c4c5fe6>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+15:00 [Info] Rustigy was compiled successfully in 2188ms
+15:00 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+15:00 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+15:00 [Info] [Rustigy] Rustigy initialized
+15:00 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+15:02 [Info] Rustigy was compiled successfully in 2309ms
+15:02 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+15:02 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+15:02 [Info] [Rustigy] Rustigy initialized
+15:02 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+15:25 [Info] StackSizeController was compiled successfully in 2670ms
+15:25 [Info] [Stack Size Controller] Acquiring vanilla defaults file from official GitHub repo and overwriting; https://raw.githubusercontent.com/AnExiledDev/StackSizeController/master/vanilla-defaults.json
+15:25 [Info] Loaded plugin Stack Size Controller v4.1.1 by AnExiledDev
+15:25 [Info] [Stack Size Controller] Populating Individual Item Stack Sizes in configuration.
+15:32 [Error] Error while compiling: Rustigy.cs(131,1): error CS1038: #endregion directive expected
+15:32 [Info] Rustigy was compiled successfully in 793ms
+15:32 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+15:32 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+15:32 [Info] [Rustigy] Rustigy initialized
+15:32 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+15:33 [Error] Error while compiling: Rustigy.cs(124,0): error CS1028: Unexpected processor directive (no #region for this #endregion)
+15:34 [Error] Error while compiling: Rustigy.cs(124,0): error CS1028: Unexpected processor directive (no #region for this #endregion)
+15:34 [Error] Error while compiling: Rustigy.cs(120,0): error CS1028: Unexpected processor directive (no #region for this #endregion)
+15:35 [Info] Rustigy was compiled successfully in 240ms
+15:35 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+15:35 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+15:35 [Info] [Rustigy] Rustigy initialized
+15:35 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+15:35 [Info] Rustigy was compiled successfully in 225ms
+15:35 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+15:35 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+15:35 [Info] [Rustigy] Rustigy initialized
+15:35 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+15:37 [Info] Rustigy was compiled successfully in 2331ms
+15:37 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+15:37 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+15:37 [Info] [Rustigy] Rustigy initialized
+15:37 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+16:29 [Info] Rustigy was compiled successfully in 2313ms
+16:29 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+16:29 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+16:29 [Info] [Rustigy] Rustigy initialized
+16:29 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+16:30 [Info] [Rustigy] CanDropActiveItem works!
+16:30 [Info] [Rustigy] CanDropActiveItem works!
+16:30 [Info] [Rustigy] OnPlayerRespawn works!
+16:32 [Info] Rustigy was compiled successfully in 2371ms
+16:32 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+16:32 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+16:32 [Info] [Rustigy] Rustigy initialized
+16:32 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+16:33 [Info] Rustigy was compiled successfully in 2471ms
+16:33 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+16:33 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+16:33 [Info] [Rustigy] Rustigy initialized
+16:33 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+16:33 [Info] [Rustigy] CanDropActiveItem works!
+16:34 [Info] [Rustigy] OnPlayerRespawn works!
+16:34 [Info] [Rustigy] CanDropActiveItem works!
+16:34 [Info] Rustigy was compiled successfully in 2285ms
+16:34 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+16:34 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+16:34 [Info] [Rustigy] Rustigy initialized
+16:34 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+16:36 [Info] [Rustigy] OnPlayerSpawn works!
+16:36 [Info] [Rustigy] OnPlayerConnected works!
+16:36 [Info] [Rustigy] OnPlayerRespawn works!
+16:36 [Info] [Rustigy] CanDropActiveItem works!
+16:37 [Info] [Rustigy] OnPlayerRespawn works!
+16:52 [Info] Rustigy was compiled successfully in 2156ms
+16:52 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+16:52 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+16:52 [Info] [Rustigy] Rustigy initialized
+16:52 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+16:52 [Info] [Rustigy] CanDropActiveItem works!
+16:52 [Info] [Rustigy] OnPlayerRespawn works!: BasePlayer+SpawnPoint
+17:05 [Info] Rustigy was compiled successfully in 2176ms
+17:05 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:05 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+17:05 [Info] [Rustigy] Rustigy initialized
+17:05 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:05 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:05 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:06 [Info] Rustigy was compiled successfully in 2148ms
+17:06 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:06 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+17:06 [Info] [Rustigy] Rustigy initialized
+17:06 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:06 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:06 [Info] [Rustigy] -1754948969
+17:06 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:06 [Info] [Rustigy] -1754948969
+17:08 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:08 [Info] [Rustigy] -1754948969
+17:08 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:08 [Info] [Rustigy] -1754948969
+17:08 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:08 [Info] [Rustigy] -1754948969
+17:08 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:08 [Info] [Rustigy] -1754948969
+17:08 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:08 [Info] [Rustigy] -1754948969
+17:08 [Info] [Rustigy] CanCraft PlayerBlueprints works!
+17:08 [Info] [Rustigy] -1754948969
+17:25 [Info] Rustigy was compiled successfully in 2406ms
+17:25 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:25 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+17:25 [Info] [Rustigy] Rustigy initialized
+17:25 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:26 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:26 [Info] [Rustigy] Rustigy initialized
+17:26 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:26 [Info] [Rustigy] CanDropActiveItem works!
+17:26 [Info] [Rustigy] CanDropActiveItem works!
+17:27 [Info] [Rustigy] OnPlayerRespawn works!: BasePlayer+SpawnPoint
+17:27 [Info] [Rustigy] CanDropActiveItem works!
+17:28 [Info] [Rustigy] OnPlayerRespawn works!: BasePlayer+SpawnPoint
+17:31 [Info] [Rustigy] Tried to craft forbidden item -1754948969
+17:31 [Info] [Rustigy] Tried to craft forbidden item -1754948969
+17:32 [Info] [Rustigy] CanDropActiveItem works!
+17:32 [Info] [Rustigy] CanDropActiveItem works!
+17:34 [Info] [Rustigy] OnPlayerRespawn works!: BasePlayer+SpawnPoint
+17:34 [Info] [Rustigy] CanDropActiveItem works!
+17:34 [Info] [Rustigy] CanDropActiveItem works!
+17:34 [Info] [Rustigy] OnPlayerRespawn works!: BasePlayer+SpawnPoint
+17:43 [Info] Rustigy was compiled successfully in 2258ms
+17:43 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:43 [Warning] Rustigy has polluted the global namespace by defining PlayerInfo
+17:43 [Info] [Rustigy] Rustigy initialized
+17:43 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:44 [Info] Rustigy was compiled successfully in 408ms
+17:44 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:44 [Info] [Rustigy] Rustigy initialized
+17:44 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:47 [Info] Rustigy was compiled successfully in 2137ms
+17:47 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:47 [Info] [Rustigy] Rustigy initialized
+17:47 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:48 [Info] [Rustigy] Tried to craft forbidden item -1754948969
+17:48 [Info] [Rustigy] Tried to craft forbidden item -1754948969
+17:52 [Info] Rustigy was compiled successfully in 2373ms
+17:52 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:52 [Info] [Rustigy] Rustigy initialized
+17:52 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+17:53 [Info] [Rustigy] craft 1877339384
+17:53 [Info] [Rustigy] CanCraft ItemCrafter works!
+17:53 [Info] [Rustigy] 1877339384
+17:58 [Info] Rustigy was compiled successfully in 2023ms
+17:58 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+17:58 [Info] [Rustigy] Rustigy initialized
+17:58 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+18:00 [Info] [Rustigy] OnPlayerConnected works!igyVigy[76561198967060464]
+18:00 [Info] [Rustigy] Tried to craft forbidden item 1877339384
+18:00 [Info] [Rustigy] Tried to craft forbidden item 1877339384
+18:01 [Info] Rustigy was compiled successfully in 2021ms
+18:01 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+18:01 [Info] [Rustigy] Rustigy initialized
+18:01 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+18:02 [Info] [Rustigy] craft -761829530
+18:02 [Info] [Rustigy] item craft -761829530
+18:48 [Error] Error while compiling: Rustigy.cs(259,24): error CS0103: The name `MathF' does not exist in the current context
+18:49 [Error] Error while compiling: Rustigy.cs(10,13): error CS0234: The type or namespace name `Mathematics' does not exist in the namespace `Unity'. Are you missing an assembly reference?
+18:50 [Error] Error while compiling: Rustigy.cs(258,31): error CS0234: The type or namespace name `MathF' does not exist in the namespace `System'. Are you missing an assembly reference?
+18:50 [Error] Error while compiling: Rustigy.cs(258,29): error CS0266: Cannot implicitly convert type `double' to `float'. An explicit conversion exists (are you missing a cast?)
+18:51 [Info] Rustigy was compiled successfully in 1080ms
+18:51 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+18:51 [Info] [Rustigy] Rustigy initialized
+18:51 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+19:06 [Error] Error while compiling: Rustigy.cs(232,74): error CS1644: Feature `declaration expression' cannot be used because it is not part of the C# 6.0 language specification
+19:10 [Info] Rustigy was compiled successfully in 2150ms
+19:10 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+19:10 [Info] [Rustigy] Rustigy initialized
+19:10 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+19:11 [Info] [Rustigy] OnEntityDeath: 
+19:11 [Info] [Rustigy] OnEntityDeath: 
+19:12 [Info] [Rustigy] craft 1540934679
+19:12 [Info] [Rustigy] item craft 1540934679
+19:12 [Info] [Rustigy] OnEntityDeath: 
+19:13 [Info] [Rustigy] OnEntityDeath: 
+19:13 [Info] [Rustigy] OnEntityDeath: 
+19:13 [Info] [Rustigy] OnEntityDeath: 
+19:13 [Info] [Rustigy] OnEntityDeath: 
+19:14 [Info] [Rustigy] OnEntityDeath: 
+19:14 [Info] [Rustigy] OnEntityDeath: 
+19:15 [Info] [Rustigy] OnEntityDeath: 
+19:15 [Info] [Rustigy] CanDropActiveItem works!
+19:15 [Info] [Rustigy] OnEntityDeath: igyVigy[76561198967060464]
+19:15 [Info] [Rustigy] OnEntityDeath: 
+19:16 [Info] [Rustigy] CanDropActiveItem works!
+19:16 [Info] [Rustigy] OnEntityDeath: igyVigy[76561198967060464]
+19:16 [Info] [Rustigy] OnEntityDeath: 
+19:17 [Info] [Rustigy] OnEntityDeath: 
+19:17 [Info] [Rustigy] OnEntityDeath: 
+19:17 [Info] [Rustigy] OnEntityDeath: 
+19:17 [Info] [Rustigy] OnEntityDeath: 
+19:17 [Info] [Rustigy] OnEntityDeath: 
+19:18 [Info] [Rustigy] OnEntityDeath: 
+19:18 [Info] [Rustigy] OnEntityDeath: 
+19:18 [Info] [Rustigy] OnEntityDeath: 
+19:18 [Info] [Rustigy] OnEntityDeath: 
+19:19 [Info] [Rustigy] OnEntityDeath: 
+19:19 [Info] Rustigy was compiled successfully in 2209ms
+19:19 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+19:19 [Info] [Rustigy] Rustigy initialized
+19:19 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+19:20 [Info] [Rustigy] OnEntityDeath name: , prefab: assets/rust.ai/agents/chicken/chicken.prefab
+19:20 [Info] [Rustigy] CanDropActiveItem works!
+19:20 [Info] [Rustigy] OnEntityDeath name: igyVigy[76561198967060464], prefab: assets/prefabs/player/player.prefab
+19:21 [Info] [Rustigy] OnEntityDeath name: , prefab: assets/rust.ai/agents/chicken/chicken.prefab
+19:21 [Info] [Rustigy] OnEntityDeath name: , prefab: assets/rust.ai/agents/chicken/chicken.prefab
+19:22 [Info] [Rustigy] OnEntityDeath name: , prefab: assets/rust.ai/agents/chicken/chicken.prefab
+19:22 [Info] [Rustigy] OnEntityDeath name: , prefab: assets/rust.ai/agents/chicken/chicken.prefab
+19:22 [Info] [Rustigy] OnEntityDeath name: , prefab: assets/rust.ai/agents/boar/boar.prefab
+19:22 [Info] Rustigy was compiled successfully in 2076ms
+19:22 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+19:22 [Info] [Rustigy] Rustigy initialized
+19:22 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+19:22 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: assets/rust.ai/agents/chicken/chicken.prefab, tag: Untagged
+19:24 [Info] Rustigy was compiled successfully in 2076ms
+19:24 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+19:24 [Info] [Rustigy] Rustigy initialized
+19:24 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+19:24 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:25 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:26 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:26 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:27 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:27 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:27 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:27 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:27 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:27 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:28 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:28 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab, prefab: 1017671955, tag: Player
+19:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:28 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab, prefab: 1017671955, tag: Player
+19:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:28 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab, prefab: 1017671955, tag: Player
+19:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:28 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab, prefab: 1017671955, tag: Player
+19:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:28 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_ch47_gunner.prefab, prefab: 1017671955, tag: Player
+19:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:29 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:31 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:31 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:31 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:31 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:31 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:32 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:33 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:33 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:33 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:33 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:33 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:34 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:34 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:34 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:34 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:35 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:35 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:35 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:36 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:36 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:36 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:36 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:37 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:37 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:37 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:37 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:37 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:38 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:39 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:39 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:39 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:39 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:39 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab, prefab: 3730875555, tag: Untagged
+19:39 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:39 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:41 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:41 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:41 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:41 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:42 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:43 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:43 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:43 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:43 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:44 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:45 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/boats/rowboat/rowboat.prefab, prefab: 1283317166, tag: Untagged
+19:45 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:45 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:46 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:46 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:46 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:46 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:46 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:46 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:47 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:47 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:47 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:48 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:48 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:49 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:49 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:50 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:50 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:50 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:51 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:51 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:52 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:52 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:54 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:54 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:55 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:55 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:56 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:56 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:57 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:57 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+19:57 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (ArgumentNullException: Value cannot be null.
+Parameter name: key)
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00060] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:57 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:57 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:58 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:58 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.corpse.prefab, prefab: 784238137, tag: Corpse
+19:58 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (ArgumentNullException: Value cannot be null.
+Parameter name: key)
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].ContainsKey (TKey key) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00060] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+19:58 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:59 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+19:59 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+19:59 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:00 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:00 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:00 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:01 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:01 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:01 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:01 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:02 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:03 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:03 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:03 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:03 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:04 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:04 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:06 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:06 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:06 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/modularcar/4module_car_spawned.entity.prefab, prefab: 1823731789, tag: Untagged
+20:06 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:06 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:07 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:09 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:09 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:09 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:10 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:11 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:11 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:12 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:13 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:13 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:13 [Info] [Rustigy] OnEntityDeath name: assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab, prefab: 3024716654, tag: Untagged
+20:13 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0004f] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <e07a2fb277a8438f9375671ea277857b>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:15 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:15 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:16 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:17 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:17 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/stag/stag.prefab, prefab: 1378621008, tag: Untagged
+20:17 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:18 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:19 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:19 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:19 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, prefab: 502341109, tag: Untagged
+20:19 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:19 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:19 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:20 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, prefab: 152398164, tag: Untagged
+20:20 [Info] Rustigy was compiled successfully in 2254ms
+20:20 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+20:20 [Info] [Rustigy] Rustigy initialized
+20:20 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+20:20 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, _spawnable: assets/rust.ai/agents/boar/boar.prefab (Spawnable), model.name: boar
+20:22 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, _spawnable: assets/rust.ai/agents/boar/boar.prefab (Spawnable), model.name: boar
+20:22 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, _spawnable: assets/rust.ai/agents/boar/boar.prefab (Spawnable), model.name: boar
+20:22 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:22 [Info] [Rustigy] craft 1540934679
+20:22 [Info] [Rustigy] item craft 1540934679
+20:22 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:23 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:23 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:23 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:23 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:24 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:24 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:24 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:24 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:25 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, _spawnable: assets/rust.ai/agents/boar/boar.prefab (Spawnable), model.name: boar
+20:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:25 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, _spawnable: assets/rust.ai/agents/boar/boar.prefab (Spawnable), model.name: boar
+20:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00017] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <3de10f2cf9db43ec906bf5d23c09bc80>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:25 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/boar/boar.prefab, _spawnable: assets/rust.ai/agents/boar/boar.prefab (Spawnable), model.name: boar
+20:25 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:26 [Info] [Rustigy] OnEntityDeath name: assets/rust.ai/agents/chicken/chicken.prefab, _spawnable: assets/rust.ai/agents/chicken/chicken.prefab (Spawnable), model.name: chicken
+20:26 [Info] Rustigy was compiled successfully in 2057ms
+20:26 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+20:26 [Info] [Rustigy] Rustigy initialized
+20:26 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+20:26 [Info] [Rustigy] OnEntityDeath name: chicken
+20:26 [Info] [Rustigy] OnEntityDeath name: chicken
+20:26 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:26 [Info] [Rustigy] OnEntityDeath name: chicken
+20:26 [Info] [Rustigy] OnEntityDeath name: chicken
+20:26 [Info] [Rustigy] OnEntityDeath name: boar
+20:27 [Info] [Rustigy] OnEntityDeath name: boar
+20:27 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:27 [Info] [Rustigy] OnEntityDeath name: boar
+20:27 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <035c759c3adc4589909c0a285bb8c8de>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:28 [Info] [Rustigy] OnEntityDeath name: chicken
+20:28 [Info] [Rustigy] OnEntityDeath name: boar
+20:29 [Info] Rustigy was compiled successfully in 2049ms
+20:29 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+20:29 [Info] [Rustigy] Rustigy initialized
+20:29 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+20:34 [Info] Rustigy was compiled successfully in 2004ms
+20:34 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+20:34 [Info] [Rustigy] Rustigy initialized
+20:34 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+20:34 [Info] [Rustigy] OnEntityDeath name: boar
+20:35 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:35 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:36 [Info] [Rustigy] OnPlayerConnected works!igyVigy[76561198967060464]
+20:36 [Info] [Rustigy] OnEntityDeath name: boar
+20:37 [Info] [Rustigy] OnEntityDeath name: boar
+20:37 [Info] [Rustigy] OnEntityDeath name: Skin
+20:38 [Info] [Rustigy] OnEntityDeath name: boar
+20:39 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:39 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:39 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:39 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:39 [Info] [Rustigy] OnEntityDeath name: boar
+20:41 [Info] [Rustigy] OnEntityDeath name: boar
+20:42 [Info] [Rustigy] OnEntityDeath name: boar
+20:42 [Info] [Rustigy] OnEntityDeath name: chicken
+20:42 [Info] [Rustigy] OnEntityDeath name: Skin
+20:42 [Info] [Rustigy] craft -180129657
+20:42 [Info] [Rustigy] item craft -180129657
+20:42 [Info] [Rustigy] OnEntityDeath name: boar
+20:42 [Info] [Rustigy] OnEntityDeath name: Skin
+20:42 [Info] [Rustigy] OnEntityDeath name: chicken
+20:43 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:43 [Info] [Rustigy] OnEntityDeath name: boar
+20:43 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:43 [Info] [Rustigy] OnEntityDeath name: chicken
+20:44 [Info] [Rustigy] OnEntityDeath name: boar
+20:44 [Info] [Rustigy] OnEntityDeath name: boar
+20:44 [Info] [Rustigy] OnEntityDeath name: boar
+20:44 [Info] [Rustigy] OnEntityDeath name: boar
+20:45 [Info] [Rustigy] OnEntityDeath name: Skin
+20:45 [Info] [Rustigy] CanBuild works!
+20:45 [Info] [Rustigy] OnEntityDeath name: boar
+20:45 [Info] [Rustigy] OnEntityDeath name: chicken
+20:45 [Info] [Rustigy] OnEntityDeath name: chicken
+20:45 [Info] [Rustigy] OnEntityDeath name: Skin
+20:46 [Info] [Rustigy] OnEntityDeath name: boar
+20:46 [Info] [Rustigy] OnEntityDeath name: chicken
+20:46 [Info] [Rustigy] OnEntityDeath name: boar
+20:47 [Info] [Rustigy] OnEntityDeath name: chicken
+20:48 [Info] [Rustigy] OnEntityDeath name: boar
+20:48 [Info] [Rustigy] OnEntityDeath name: chicken
+20:48 [Info] [Rustigy] OnEntityDeath name: chicken
+20:48 [Info] [Rustigy] OnEntityDeath name: boar
+20:48 [Info] [Rustigy] OnEntityDeath name: boar
+20:48 [Info] [Rustigy] OnEntityDeath name: chicken
+20:49 [Info] [Rustigy] OnEntityDeath name: chicken
+20:49 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:49 [Info] [Rustigy] OnEntityDeath name: chicken
+20:50 [Info] [Rustigy] OnEntityDeath name: boar
+20:50 [Info] [Rustigy] OnEntityDeath name: boar
+20:50 [Info] [Rustigy] OnEntityDeath name: boar
+20:50 [Info] [Rustigy] OnEntityDeath name: boar
+20:51 [Info] [Rustigy] OnEntityDeath name: chicken
+20:51 [Info] [Rustigy] OnEntityDeath name: chicken
+20:51 [Info] [Rustigy] craft 1946219319
+20:51 [Info] [Rustigy] item craft 1946219319
+20:51 [Info] [Rustigy] OnEntityDeath name: chicken
+20:51 [Info] [Rustigy] OnEntityDeath name: boar
+20:53 [Info] [Rustigy] OnEntityDeath name: boar
+20:53 [Info] [Rustigy] OnEntityDeath name: chicken
+20:53 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00000] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <541546ac5b3b4c7eb05f33a8ac35932e>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+20:54 [Info] [Rustigy] OnEntityDeath name: chicken
+20:54 [Info] [Rustigy] OnEntityDeath name: Skin
+20:55 [Info] [Rustigy] OnEntityDeath name: boar
+20:56 [Info] [Rustigy] OnEntityDeath name: boar
+20:56 [Info] [Rustigy] OnEntityDeath name: chicken
+20:57 [Info] [Rustigy] OnEntityDeath name: chicken
+20:57 [Info] [Rustigy] OnEntityDeath name: chicken
+20:57 [Info] [Rustigy] OnEntityDeath name: boar
+20:57 [Info] [Rustigy] OnEntityDeath name: boar
+20:58 [Info] [Rustigy] OnEntityDeath name: chicken
+20:59 [Info] [Rustigy] OnEntityDeath name: boar
+20:59 [Info] Rustigy was compiled successfully in 2654ms
+20:59 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+20:59 [Info] [Rustigy] Rustigy initialized
+20:59 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+21:00 [Info] [Rustigy] OnEntityDeath name: boar, prefab: boar
+21:00 [Info] [Rustigy] OnEntityDeath name: boar, prefab: boar
+21:00 [Info] [Rustigy] CanBuild works!
+21:00 [Info] [Rustigy] OnEntityDeath name: boar, prefab: boar
+21:01 [Info] [Rustigy] OnEntityDeath name: boar, prefab: boar
+21:02 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: chicken
+21:02 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: chicken
+21:03 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: chicken
+21:03 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: chicken
+21:03 [Info] [Rustigy] OnEntityDeath name: boar, prefab: boar
+21:03 [Info] [Rustigy] OnEntityDeath name: boar, prefab: boar
+21:03 [Info] [Rustigy] OnEntityDeath name: Skin, prefab: stag
+21:03 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: chicken
+21:04 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: chicken
+21:04 [Info] Rustigy was compiled successfully in 2340ms
+21:04 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+21:04 [Info] [Rustigy] Rustigy initialized
+21:04 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+21:06 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:06 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: assets/rust.ai/agents/chicken/chicken.prefab
+21:06 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: assets/rust.ai/agents/chicken/chicken.prefab
+21:06 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:06 [Info] [Rustigy] OnEntityDeath name: loot-barrel-1, prefab: assets/bundled/prefabs/autospawn/resource/loot/loot-barrel-1.prefab
+21:06 [Info] [Rustigy] attacked by player: assets/prefabs/player/player.prefab
+21:07 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:08 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity, prefab: assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab
+21:08 [Info] [Rustigy] OnEntityDeath Exception: System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00027] in <f679c9d179a441f6aa9e68aa0567e324>:0 
+21:08 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:08 [Info] Rustigy was compiled successfully in 2316ms
+21:08 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+21:08 [Info] [Rustigy] Rustigy initialized
+21:08 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+21:09 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:10 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity, prefab: assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab
+21:10 [Info] [Rustigy] OnEntityDeath Exception: System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x00027] in <79afc66629754c44b0fb7dd3bf780bcc>:0 
+21:10 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:11 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1, prefab: assets/bundled/prefabs/radtown/loot_barrel_1.prefab
+21:11 [Info] [Rustigy] attacked by player: igyVigy
+21:11 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: assets/rust.ai/agents/chicken/chicken.prefab
+21:11 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: assets/rust.ai/agents/chicken/chicken.prefab
+21:11 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: assets/rust.ai/agents/chicken/chicken.prefab
+21:11 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:11 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:12 [Info] [Rustigy] OnEntityDeath name: chicken, prefab: assets/rust.ai/agents/chicken/chicken.prefab
+21:12 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:12 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:13 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:13 [Info] [Rustigy] OnEntityDeath name: boar, prefab: assets/rust.ai/agents/boar/boar.prefab
+21:13 [Info] Rustigy was compiled successfully in 2289ms
+21:13 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+21:13 [Info] [Rustigy] Rustigy initialized
+21:13 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+21:13 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:13 [Info] [Rustigy] attacked by player: igyVigy
+21:14 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+21:14 [Info] [Rustigy] attacked by player: igyVigy
+21:14 [Info] [Rustigy] OnEntityDeath name: boar
+21:14 [Info] [Rustigy] OnEntityDeath name: chicken
+21:15 [Info] [Rustigy] OnEntityDeath name: stag
+21:15 [Info] [Rustigy] OnEntityDeath name: oil_barrel
+21:15 [Info] [Rustigy] attacked by player: igyVigy
+21:16 [Info] [Rustigy] OnEntityDeath name: boar
+21:17 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:17 [Info] [Rustigy] attacked by player: igyVigy
+21:17 [Info] [Rustigy] OnEntityDeath name: chicken
+21:18 [Info] [Rustigy] OnEntityDeath name: chicken
+21:18 [Info] [Rustigy] OnEntityDeath name: boar
+21:18 [Info] [Rustigy] OnEntityDeath name: roadsign1
+21:18 [Info] [Rustigy] attacked by player: igyVigy
+21:19 [Info] [Rustigy] OnEntityDeath name: chicken
+21:19 [Info] [Rustigy] OnEntityDeath name: chicken
+21:19 [Info] [Rustigy] OnEntityDeath name: chicken
+21:20 [Info] [Rustigy] OnEntityDeath name: chicken
+21:20 [Info] [Rustigy] OnEntityDeath name: chicken
+21:20 [Info] [Rustigy] OnEntityDeath name: chicken
+21:21 [Info] [Rustigy] OnEntityDeath name: rhib
+21:21 [Info] [Rustigy] OnEntityDeath name: chicken
+21:21 [Info] [Rustigy] OnEntityDeath name: boar
+21:22 [Info] [Rustigy] OnEntityDeath name: boar
+21:22 [Info] [Rustigy] OnEntityDeath name: boar
+21:22 [Info] [Rustigy] OnEntityDeath name: boar
+21:23 [Info] [Rustigy] CanDropActiveItem works!
+21:23 [Info] [Rustigy] OnEntityDeath name: boar
+21:23 [Info] [Rustigy] CanDropActiveItem works!
+21:23 [Info] [Rustigy] OnEntityDeath name: player
+21:24 [Info] [Rustigy] OnEntityDeath name: boar
+21:24 [Info] [Rustigy] OnEntityDeath name: chicken
+21:24 [Info] [Rustigy] OnEntityDeath name: chicken
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_ch47_gunner
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_ch47_gunner
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_ch47_gunner
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_ch47_gunner
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_ch47_gunner
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: chicken
+21:25 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_cargo
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_cargo_turret_any
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_cargo_turret_any
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:25 [Info] [Rustigy] OnEntityDeath name: scientistnpc_cargo_turret_lr300
+21:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <7c2907d1fb534eb796d41e0dc3cacc26>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:26 [Info] [Rustigy] OnEntityDeath name: chicken
+21:27 [Info] [Rustigy] OnEntityDeath name: boar
+21:27 [Info] [Rustigy] OnEntityDeath name: chicken
+21:27 [Info] [Rustigy] OnEntityDeath name: roadsign3
+21:27 [Info] [Rustigy] attacked by player: igyVigy
+21:28 [Info] [Rustigy] OnEntityDeath name: chicken
+21:28 [Info] [Rustigy] OnEntityDeath name: roadsign4
+21:28 [Info] [Rustigy] attacked by player: igyVigy
+21:28 [Info] [Rustigy] OnEntityDeath name: chicken
+21:28 [Info] [Rustigy] OnEntityDeath name: stag
+21:29 [Info] [Rustigy] OnEntityDeath name: roadsign7
+21:29 [Info] [Rustigy] attacked by player: igyVigy
+21:29 [Info] [Rustigy] OnEntityDeath name: chicken
+21:29 [Info] [Rustigy] OnEntityDeath name: roadsign3
+21:29 [Info] [Rustigy] attacked by player: igyVigy
+21:29 [Info] [Rustigy] OnEntityDeath name: boar
+21:30 [Info] [Rustigy] OnEntityDeath name: chicken
+21:30 [Info] [Rustigy] OnEntityDeath name: boar
+21:30 [Info] [Rustigy] OnEntityDeath name: boar
+21:31 [Info] [Rustigy] OnEntityDeath name: roadsign8
+21:31 [Info] [Rustigy] attacked by player: igyVigy
+21:31 [Info] [Rustigy] OnEntityDeath name: chicken
+21:32 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:32 [Info] [Rustigy] attacked by player: igyVigy
+21:32 [Info] [Rustigy] OnEntityDeath name: stag
+21:32 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:32 [Info] [Rustigy] attacked by player: igyVigy
+21:32 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:32 [Info] [Rustigy] attacked by player: igyVigy
+21:32 [Info] [Rustigy] OnEntityDeath name: boar
+21:34 [Info] [Rustigy] OnEntityDeath name: roadsign3
+21:34 [Info] [Rustigy] attacked by player: igyVigy
+21:34 [Info] [Rustigy] OnEntityDeath name: boar
+21:35 [Info] [Rustigy] OnEntityDeath name: boar
+21:35 [Info] [Rustigy] OnEntityDeath name: boar
+21:35 [Info] [Rustigy] OnEntityDeath name: chicken
+21:35 [Info] [Rustigy] OnEntityDeath name: chicken
+21:36 [Info] [Rustigy] OnEntityDeath name: boar
+21:36 [Info] [Rustigy] OnEntityDeath name: chicken
+21:36 [Info] [Rustigy] OnEntityDeath name: boar
+21:36 [Info] [Rustigy] OnEntityDeath name: stag
+21:36 [Info] [Rustigy] OnEntityDeath name: chicken
+21:37 [Info] [Rustigy] OnEntityDeath name: boar
+21:37 [Info] [Rustigy] OnEntityDeath name: chicken
+21:37 [Info] Rustigy was compiled successfully in 2195ms
+21:37 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+21:37 [Info] [Rustigy] Rustigy initialized
+21:37 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+21:37 [Info] [Rustigy] OnEntityDeath name: boar
+21:38 [Info] [Rustigy] OnEntityDeath name: boar
+21:39 [Info] [Rustigy] OnEntityDeath name: oil_barrel
+21:39 [Info] [Rustigy] attacked by player: igyVigy
+21:39 [Info] [Rustigy] OnEntityDeath name: boar
+21:39 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity
+21:39 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:39 [Info] [Rustigy] OnEntityDeath name: chicken
+21:39 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+21:39 [Info] [Rustigy] attacked by player: igyVigy
+21:39 [Info] [Rustigy] OnEntityDeath name: chicken
+21:39 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:39 [Info] [Rustigy] attacked by player: igyVigy
+21:40 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+21:40 [Info] [Rustigy] attacked by player: igyVigy
+21:40 [Info] [Rustigy] OnEntityDeath name: oil_barrel
+21:40 [Info] [Rustigy] attacked by player: igyVigy
+21:40 [Info] [Rustigy] OnEntityDeath name: chicken
+21:40 [Info] [Rustigy] OnEntityDeath name: chicken
+21:40 [Info] [Rustigy] OnEntityDeath name: chicken
+21:41 [Info] [Rustigy] OnEntityDeath name: boar
+21:41 [Info] [Rustigy] OnEntityDeath name: boar
+21:42 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:42 [Info] [Rustigy] attacked by player: igyVigy
+21:42 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:42 [Info] [Rustigy] attacked by player: igyVigy
+21:42 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+21:42 [Info] [Rustigy] attacked by player: igyVigy
+21:42 [Info] [Rustigy] OnEntityDeath name: chicken
+21:42 [Info] [Rustigy] OnEntityDeath name: chicken
+21:42 [Info] [Rustigy] OnEntityDeath name: roadsign8
+21:42 [Info] [Rustigy] attacked by player: igyVigy
+21:43 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:43 [Info] [Rustigy] attacked by player: igyVigy
+21:43 [Info] [Rustigy] OnEntityDeath name: chicken
+21:43 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+21:43 [Info] [Rustigy] attacked by player: igyVigy
+21:43 [Info] [Rustigy] OnEntityDeath name: chicken
+21:44 [Info] [Rustigy] OnEntityDeath name: chicken
+21:44 [Info] [Rustigy] OnEntityDeath name: roadsign8
+21:44 [Info] [Rustigy] attacked by player: igyVigy
+21:44 [Info] [Rustigy] OnEntityDeath name: boar
+21:44 [Info] [Rustigy] OnEntityDeath name: chicken
+21:45 [Info] [Rustigy] OnEntityDeath name: chicken
+21:45 [Info] [Rustigy] OnEntityDeath name: stag
+21:46 [Info] [Rustigy] OnEntityDeath name: chicken
+21:46 [Info] [Rustigy] craft -180129657
+21:46 [Info] [Rustigy] item craft -180129657
+21:47 [Info] [Rustigy] OnEntityDeath name: chicken
+21:47 [Info] [Rustigy] CanBuild works!
+21:47 [Info] [Rustigy] OnEntityDeath name: boar
+21:48 [Info] [Rustigy] OnEntityDeath name: chicken
+21:48 [Info] [Rustigy] OnEntityDeath name: chicken
+21:49 [Info] [Rustigy] OnEntityDeath name: boar
+21:49 [Info] [Rustigy] attacked by player: igyVigy
+21:50 [Info] [Rustigy] OnEntityDeath name: chicken
+21:50 [Info] [Rustigy] OnEntityDeath name: stag
+21:50 [Info] [Rustigy] OnEntityDeath name: boar.corpse
+21:50 [Info] [Rustigy] attacked by player: igyVigy
+21:51 [Info] [Rustigy] OnEntityDeath name: stag
+21:51 [Info] [Rustigy] OnEntityDeath name: chicken
+21:52 [Info] [Rustigy] OnEntityDeath name: chicken
+21:53 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity
+21:53 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:53 [Info] [Rustigy] OnEntityDeath name: chicken
+21:54 [Info] [Rustigy] OnEntityDeath name: boar
+21:54 [Info] [Rustigy] OnEntityDeath name: boar
+21:55 [Info] [Rustigy] OnEntityDeath name: chicken
+21:55 [Info] [Rustigy] OnEntityDeath name: chicken
+21:55 [Info] [Rustigy] OnEntityDeath name: boar
+21:56 [Info] [Rustigy] OnEntityDeath name: boar
+21:56 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+21:56 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:57 [Info] [Rustigy] OnEntityDeath name: boar
+21:57 [Info] [Rustigy] OnEntityDeath name: boar
+21:57 [Info] [Rustigy] OnEntityDeath name: chicken
+21:58 [Info] [Rustigy] OnEntityDeath name: chicken
+21:58 [Info] [Rustigy] OnEntityDeath name: boar
+21:58 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+21:58 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+21:59 [Info] [Rustigy] OnEntityDeath name: boar
+22:00 [Info] [Rustigy] OnEntityDeath name: chicken
+22:00 [Info] [Rustigy] OnEntityDeath name: chicken
+22:01 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+22:01 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <af4ba09510114862af7c90303916ba38>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:01 [Info] Rustigy was compiled successfully in 2297ms
+22:01 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+22:01 [Info] [Rustigy] Rustigy initialized
+22:01 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+22:01 [Info] [Rustigy] OnEntityDeath name: chicken
+22:02 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+22:02 [Info] [Rustigy] attacked by player: igyVigy
+22:02 [Info] [Rustigy] OnEntityDeath name: chicken
+22:02 [Info] [Rustigy] OnEntityDeath name: boar
+22:02 [Info] [Rustigy] OnEntityDeath name: boar
+22:02 [Info] [Rustigy] OnEntityDeath name: chicken
+22:03 [Info] [Rustigy] OnEntityDeath name: stag
+22:04 [Info] Rustigy was compiled successfully in 2156ms
+22:04 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+22:04 [Info] [Rustigy] Rustigy initialized
+22:04 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+22:04 [Info] [Rustigy] OnEntityDeath name: chicken
+22:04 [Info] [Rustigy] OnEntityDeath name: wolf
+22:05 [Info] [Rustigy] OnEntityDeath name: chicken
+22:05 [Info] [Rustigy] OnEntityDeath name: oil_barrel
+22:05 [Info] [Rustigy] attacked by player: igyVigy
+22:05 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+22:05 [Info] [Rustigy] attacked by player: igyVigy
+22:05 [Info] [Rustigy] OnEntityDeath name: chicken
+22:05 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+22:05 [Info] [Rustigy] attacked by player: igyVigy
+22:06 [Info] [Rustigy] OnEntityDeath name: boar
+22:06 [Info] [Rustigy] OnEntityDeath name: roadsign3
+22:06 [Info] [Rustigy] attacked by player: igyVigy
+22:06 [Info] [Rustigy] OnEntityDeath name: roadsign1
+22:06 [Info] [Rustigy] attacked by player: igyVigy
+22:07 [Info] [Rustigy] OnEntityDeath name: boar
+22:07 [Info] [Rustigy] OnEntityDeath name: loot_barrel_1
+22:07 [Info] [Rustigy] attacked by player: igyVigy
+22:07 [Info] [Rustigy] OnEntityDeath name: chicken
+22:08 [Info] [Rustigy] OnEntityDeath name: boar
+22:08 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+22:08 [Info] [Rustigy] attacked by player: igyVigy
+22:08 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+22:08 [Info] [Rustigy] attacked by player: igyVigy
+22:08 [Info] [Rustigy] OnEntityDeath name: chicken
+22:09 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+22:09 [Info] [Rustigy] attacked by player: igyVigy
+22:10 [Info] [Rustigy] OnEntityDeath name: boar
+22:10 [Info] [Rustigy] OnEntityDeath name: chicken
+22:11 [Info] [Rustigy] OnEntityDeath name: stag
+22:11 [Info] [Rustigy] OnEntityDeath name: boar
+22:12 [Info] Rustigy was compiled successfully in 2348ms
+22:12 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+22:12 [Info] [Rustigy] Rustigy initialized
+22:12 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+22:12 [Info] [Rustigy] OnEntityDeath name: chicken
+22:12 [Info] [Rustigy] OnEntityDeath name: loot_barrel_2
+22:12 [Info] [Rustigy] attacked by player: igyVigy
+22:13 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+22:13 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:14 [Info] [Rustigy] OnEntityDeath name: boar
+22:14 [Info] [Rustigy] OnEntityDeath name: boar
+22:14 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity
+22:14 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:15 [Info] [Rustigy] OnEntityDeath name: chicken
+22:15 [Info] [Rustigy] OnEntityDeath name: boar
+22:16 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity
+22:16 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:17 [Info] [Rustigy] OnEntityDeath name: chicken
+22:17 [Info] [Rustigy] OnEntityDeath name: chicken
+22:17 [Info] [Rustigy] OnEntityDeath name: chicken
+22:17 [Info] [Rustigy] OnEntityDeath name: chicken
+22:17 [Info] [Rustigy] OnEntityDeath name: boar
+22:18 [Info] [Rustigy] OnEntityDeath name: boar
+22:19 [Info] [Rustigy] OnEntityDeath name: boar
+22:19 [Info] [Rustigy] OnEntityDeath name: boar
+22:19 [Info] [Rustigy] OnEntityDeath name: boar
+22:20 [Info] [Rustigy] OnEntityDeath name: boar
+22:21 [Info] [Rustigy] OnEntityDeath name: stag
+22:21 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+22:21 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:21 [Info] [Rustigy] OnEntityDeath name: chicken
+22:22 [Info] [Rustigy] OnEntityDeath name: chicken
+22:22 [Info] [Rustigy] OnEntityDeath name: chicken
+22:23 [Info] [Rustigy] OnEntityDeath name: stag
+22:23 [Info] [Rustigy] OnEntityDeath name: chicken
+22:23 [Info] [Rustigy] OnEntityDeath name: chicken
+22:25 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+22:25 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <71cbd296bf634c49802085f6216795c9>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:25 [Info] [Rustigy] OnEntityDeath name: boar
+22:25 [Info] [Rustigy] OnEntityDeath name: chicken
+22:25 [Info] Rustigy was compiled successfully in 2398ms
+22:25 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+22:25 [Info] [Rustigy] Rustigy initialized
+22:25 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+22:25 [Info] [Rustigy] OnEntityDeath name: chicken
+22:25 [Info] [Rustigy] OnEntityDeath name: stag
+22:26 [Info] [Rustigy] OnEntityDeath name: boar
+22:26 [Info] [Rustigy] OnEntityDeath name: chicken
+22:26 [Info] [Rustigy] OnEntityDeath name: boar
+22:26 [Info] [Rustigy] OnEntityDeath name: chicken
+22:27 [Info] [Rustigy] OnEntityDeath name: chicken
+22:27 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+22:27 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <b0f17e5f38ea4334a0118eabeee1e004>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <b0f17e5f38ea4334a0118eabeee1e004>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:27 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+22:27 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <b0f17e5f38ea4334a0118eabeee1e004>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <b0f17e5f38ea4334a0118eabeee1e004>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:28 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+22:28 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <b0f17e5f38ea4334a0118eabeee1e004>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <b0f17e5f38ea4334a0118eabeee1e004>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:28 [Info] [Rustigy] OnEntityDeath name: boar
+22:29 [Info] [Rustigy] OnEntityDeath name: boar
+22:29 [Info] [Rustigy] OnEntityDeath name: chicken
+22:29 [Info] [Rustigy] OnEntityDeath name: chicken
+22:30 [Info] [Rustigy] OnEntityDeath name: boar
+22:30 [Info] [Rustigy] OnEntityDeath name: boar
+22:30 [Info] [Rustigy] OnEntityDeath name: boar
+22:30 [Info] [Rustigy] OnEntityDeath name: boar
+22:31 [Info] [Rustigy] OnEntityDeath name: boar
+22:32 [Info] [Rustigy] OnEntityDeath name: stag
+22:32 [Info] [Rustigy] OnEntityDeath name: stag
+22:32 [Info] [Rustigy] OnEntityDeath name: chicken
+22:32 [Info] Rustigy was compiled successfully in 2328ms
+22:32 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+22:32 [Info] [Rustigy] Rustigy initialized
+22:32 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+22:32 [Info] [Rustigy] OnEntityDeath name: chicken
+22:33 [Info] [Rustigy] OnEntityDeath name: 3module_car_spawned.entity
+22:33 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <79267cd396c94f1388b155e17131355c>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <79267cd396c94f1388b155e17131355c>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:33 [Info] [Rustigy] OnEntityDeath name: chicken
+22:34 [Info] [Rustigy] OnEntityDeath name: chicken
+22:34 [Info] [Rustigy] OnEntityDeath name: chicken
+22:34 [Info] [Rustigy] OnEntityDeath name: chicken
+22:34 [Info] [Rustigy] OnEntityDeath name: chicken
+22:35 [Info] [Rustigy] OnEntityDeath name: boar
+22:35 [Info] [Rustigy] OnEntityDeath name: chicken
+22:35 [Info] [Rustigy] OnEntityDeath name: boar
+22:35 [Info] Rustigy was compiled successfully in 2777ms
+22:35 [Info] Unloaded plugin Rustigy v0.1.0 by igyVigy
+22:35 [Info] [Rustigy] Rustigy initialized
+22:35 [Info] Loaded plugin Rustigy v0.1.0 by igyVigy
+22:36 [Info] [Rustigy] OnEntityDeath name: boar
+22:37 [Info] [Rustigy] OnEntityDeath name: chicken
+22:37 [Info] [Rustigy] OnEntityDeath name: chicken
+22:37 [Info] [Rustigy] OnEntityDeath name: boar
+22:37 [Info] [Rustigy] OnEntityDeath name: chicken
+22:38 [Info] [Rustigy] OnEntityDeath name: stag
+22:38 [Info] [Rustigy] OnEntityDeath name: stag
+22:38 [Info] [Rustigy] OnEntityDeath name: boar
+22:39 [Info] [Rustigy] OnEntityDeath name: boar
+22:39 [Info] [Rustigy] OnEntityDeath name: chicken
+22:39 [Info] [Rustigy] OnEntityDeath name: chicken
+22:39 [Info] [Rustigy] OnEntityDeath name: boar
+22:39 [Info] [Rustigy] OnEntityDeath name: boar
+22:39 [Info] [Rustigy] OnEntityDeath name: chicken
+22:41 [Info] [Rustigy] OnEntityDeath name: chicken
+22:41 [Info] [Rustigy] OnEntityDeath name: chicken
+22:41 [Info] [Rustigy] OnEntityDeath name: chicken
+22:42 [Info] [Rustigy] OnEntityDeath name: boar
+22:42 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+22:42 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:43 [Info] [Rustigy] OnEntityDeath name: boar
+22:43 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+22:43 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:44 [Info] [Rustigy] OnEntityDeath name: chicken
+22:44 [Info] [Rustigy] OnEntityDeath name: boar
+22:44 [Info] [Rustigy] OnEntityDeath name: boar
+22:45 [Info] [Rustigy] OnEntityDeath name: 4module_car_spawned.entity
+22:45 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:45 [Info] [Rustigy] OnEntityDeath name: boar
+22:46 [Info] [Rustigy] OnEntityDeath name: boar
+22:46 [Info] [Rustigy] OnEntityDeath name: boar
+22:46 [Info] [Rustigy] OnEntityDeath name: chicken
+22:46 [Info] [Rustigy] OnEntityDeath name: chicken
+22:47 [Info] [Rustigy] OnEntityDeath name: boar
+22:47 [Info] [Rustigy] OnEntityDeath name: chicken
+22:47 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity
+22:47 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:49 [Info] [Rustigy] OnEntityDeath name: chicken
+22:49 [Info] [Rustigy] OnEntityDeath name: boar
+22:49 [Info] [Rustigy] OnEntityDeath name: chicken
+22:50 [Info] [Rustigy] OnEntityDeath name: chicken
+22:51 [Info] [Rustigy] OnEntityDeath name: chicken
+22:52 [Info] [Rustigy] OnEntityDeath name: boar
+22:52 [Info] [Rustigy] OnEntityDeath name: chicken
+22:52 [Info] [Rustigy] OnEntityDeath name: chicken
+22:52 [Info] [Rustigy] OnEntityDeath name: 2module_car_spawned.entity
+22:52 [Error] Failed to call hook 'OnEntityDeath' on plugin 'Rustigy v0.1.0' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.Rustigy.OnEntityDeath (BaseCombatEntity entity, HitInfo info) [0x0001c] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.Rustigy.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00280] in <9e6c6daa72ec4af08356d32dd4760685>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <e23ba2c0f246426296d81c842cbda3af>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <46ff2b534abb4b35952608167523b7ec>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <46ff2b534abb4b35952608167523b7ec>:0 
+22:53 [Info] [Rustigy] OnEntityDeath name: boar
+22:53 [Info] [Rustigy] OnEntityDeath name: boar
+22:53 [Info] [Rustigy] OnEntityDeath name: chicken
+22:54 [Info] [Rustigy] OnEntityDeath name: chicken
+22:55 [Info] [Rustigy] OnEntityDeath name: stag
+22:55 [Info] [Rustigy] OnEntityDeath name: chicken

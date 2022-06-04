@@ -1,0 +1,27 @@
+{
+  "notCraftableItems": [
+    -1754948969
+  ],
+  "entityExpTable": {
+    "loot_barrel_1": 5.0,
+    "loot_barrel_2": 5.0,
+    "loot_barrel_3": 5.0,
+    "oil_barrel": 5.0,
+    "roadsign1": 5.0,
+    "roadsign2": 5.0,
+    "roadsign3": 5.0,
+    "roadsign4": 5.0,
+    "roadsign5": 5.0,
+    "roadsign6": 5.0,
+    "roadsign7": 5.0,
+    "roadsign8": 5.0,
+    "chicken": 10.0,
+    "stag": 50.0,
+    "boar": 100.0
+  },
+  "VersionNumber": {
+    "Major": 0,
+    "Minor": 1,
+    "Patch": 0
+  }
+}
