@@ -6,6 +6,7 @@ using Oxide.Core;
 using Oxide.Core.Configuration;
 using Oxide.Core.Libraries.Covalence;
 using UnityEngine;
+using Newtonsoft.Json;
 
 namespace Oxide.Plugins
 {
@@ -16,9 +17,11 @@ namespace Oxide.Plugins
     {
         private DataFileSystem dataFile;
         private Configuration _config;
+        private Admin admin;
         void Init()
         {
             _config = Config.ReadObject<Configuration>();
+            admin = new Admin(_config.admin);
             if (_config == null)
             {
                 Puts("Generating Default Config File.");
@@ -45,9 +48,29 @@ namespace Oxide.Plugins
 
         private class Configuration
         {
+            public Dictionary<string, string> admin = new Dictionary<string, string>();
+            public List<string> moderators = new List<string>();
             public List<string> notCraftableItems = new List<string>();
             public Dictionary<string, float> entityExpTable = new Dictionary<string, float>();
-            public VersionNumber VersionNumber;
+            public Dictionary<string, string> spawnCommandData = new Dictionary<string, string>();
+            public Dictionary<string, string> createCommandData = new Dictionary<string, string>();
+            public VersionNumber versionNumber;
+        }
+
+        internal class Admin
+        {
+            public string name;
+            public string steamId;
+            public Admin(Dictionary<string, string> data)
+            {
+                this.name = data["name"];
+                this.steamId = data["steamId"];
+            }
+        }
+
+        bool IsAdmin(BasePlayer player)
+        {
+            return player.displayName == admin.name;
         }
 
         protected override void SaveConfig()
@@ -58,7 +81,7 @@ namespace Oxide.Plugins
         protected override void LoadDefaultConfig()
         {
             Configuration defaultConfig = GetDefaultConfig();
-            defaultConfig.VersionNumber = Version;
+            defaultConfig.versionNumber = Version;
             Config.WriteObject(defaultConfig, true);
             _config = Config.ReadObject<Configuration>();
         }
@@ -70,7 +93,23 @@ namespace Oxide.Plugins
             {
                 _config.notCraftableItems = configDefault.notCraftableItems;
             }
-            _config.VersionNumber = Version;
+            if (_config.admin == null)
+            {
+                _config.admin = configDefault.admin;
+            }
+            if (_config.moderators == null)
+            {
+                _config.moderators = configDefault.moderators;
+            }
+            if (_config.spawnCommandData == null)
+            {
+                _config.spawnCommandData = configDefault.spawnCommandData;
+            }
+            if (_config.createCommandData == null)
+            {
+                _config.createCommandData = configDefault.createCommandData;
+            }
+            _config.versionNumber = Version;
             SaveConfig();
         }
 
@@ -87,70 +126,66 @@ namespace Oxide.Plugins
             switch (command)
             {
                 case "stats":
-                    CommandStats(player.IPlayer, command, args);
-                    return true;
+                    return CommandStats(player, command, args);
                 case "heal":
-                    CommandHeal(player.IPlayer, command, args);
-                    return true;
+                    return CommandHeal(player, command, args);
                 case "hurt":
-                    CommandHurt(player.IPlayer, command, args);
-                    return true;
+                    return CommandHurt(player, command, args);
                 case "sethome":
-                    CommandSetHome(player.IPlayer, command, args);
-                    return true;
+                    return CommandSetHome(player, command, args);
                 case "home":
-                    CommandHome(player.IPlayer, command, args);
-                    return true;
+                    return CommandHome(player, command, args);
                 case "gainexp":
-                    CommandGainExp(player.IPlayer, command, args);
-                    return true;
+                    return CommandGainExp(player, command, args);
                 case "spawn":
-                    CommandSpawn(player.IPlayer, command, args);
-                    return true;
+                    return CommandSpawn(player, command, args);
+                case "create":
+                    return CommandCreate(player, command, args);
                 default: return null;
             }
         }
-
-        private void CommandStats(IPlayer player, string command, string[] args)
+        private object CommandStats(BasePlayer player, string command, string[] args)
         {
-            PlayerInfo playerInfo = LoadPlayerInfo(player.Id);
+            PlayerInfo playerInfo = LoadPlayerInfo(player.UserIDString);
             var level = playerInfo.level;
             var exp = playerInfo.exp;
             var nextLevelAt = playerInfo.nextLevelAt;
-            player.Reply("Level: " + level + ", exp: " + exp + ", next level at " + nextLevelAt + " exp");
+            player.IPlayer.Reply("Level: " + level + ", exp: " + exp + ", next level at " + nextLevelAt + " exp");
+            return true;
         }
-
-        private void CommandSetHome(IPlayer player, string command, string[] args)
+        private object CommandSetHome(BasePlayer player, string command, string[] args)
         {
-            PlayerInfo playerInfo = LoadPlayerInfo(player.Id);
-            playerInfo.SetHome(player.Position());
-            SavePlayerInfo(player.Id, playerInfo);
-            player.Reply("Home set.");
+            PlayerInfo playerInfo = LoadPlayerInfo(player.UserIDString);
+            playerInfo.SetHome(player.IPlayer.Position());
+            SavePlayerInfo(player.UserIDString, playerInfo);
+            player.IPlayer.Reply("Home set.");
+            return true;
         }
-
-        private void CommandHome(IPlayer player, string command, string[] args)
+        private object CommandHome(BasePlayer player, string command, string[] args)
         {
-            PlayerInfo playerInfo = LoadPlayerInfo(player.Id);
+            PlayerInfo playerInfo = LoadPlayerInfo(player.UserIDString);
             if (playerInfo.HomePosition != null)
             {
-                player.Teleport(playerInfo.HomePosition);
-                player.Reply("Going home.");
+                player.IPlayer.Teleport(playerInfo.HomePosition);
+                player.IPlayer.Reply("Going home.");
             }
             else
             {
-                player.Reply("Set home position first. (/sethome)");
+                player.IPlayer.Reply("Set home position first. (/sethome)");
             }
+            return true;
         }
-
-        private void CommandHeal(IPlayer player, string command, string[] args)
+        private object CommandHeal(BasePlayer player, string command, string[] args)
         {
-            float health = player.Health;
-            float maxHealth = player.MaxHealth;
+            if (!IsAdmin(player)) return null;
+            float health = player.health;
+            float maxHealth = player.MaxHealth();
             player.Heal(maxHealth - health);
+            return true;
         }
-
-        private void CommandHurt(IPlayer player, string command, string[] args)
+        private object CommandHurt(BasePlayer player, string command, string[] args)
         {
+            if (!IsAdmin(player)) return null;
             float damage = 10;
             if (args.Length > 0)
             {
@@ -164,9 +199,11 @@ namespace Oxide.Plugins
                 }
             }
             player.Hurt(damage);
+            return true;
         }
-        private void CommandGainExp(IPlayer player, string command, string[] args)
+        private object CommandGainExp(BasePlayer player, string command, string[] args)
         {
+            if (!IsAdmin(player)) return null;
             float exp = 10;
             if (args.Length > 0)
             {
@@ -179,33 +216,67 @@ namespace Oxide.Plugins
 
                 }
             }
-            PlayerInfo playerInfo = LoadPlayerInfo(player.Id);
+            PlayerInfo playerInfo = LoadPlayerInfo(player.UserIDString);
             playerInfo.gainExp(exp, player);
-            SavePlayerInfo(player.Id, playerInfo);
+            SavePlayerInfo(player.UserIDString, playerInfo);
+            return true;
         }
-        private void CommandSpawn(IPlayer player, string command, string[] args)
+        private object CommandSpawn(BasePlayer player, string command, string[] args)
         {
-            string carPrefab1 = "assets/content/vehicles/modularcar/1module_car_spawned.entity.prefab";
-            string carPrefab2 = "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab";
-            string carPrefab3 = "assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab";
-            string carPrefab4 = "assets/content/vehicles/modularcar/4module_car_spawned.entity.prefab";
-            string boatPrefab = "assets/content/vehicles/boats/rowboat/rowboat.prefab";
-            string boarPrefab = "assets/rust.ai/agents/boar/boar.prefab";
-            string polarBearPrefab = "assets/rust.ai/agents/bear/polarbear.prefab";
-            string stagPrefab = "assets/rust.ai/agents/stag/stag.prefab";
-            string pr1 = "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab";
-            string chickenPrefab = "assets/rust.ai/agents/chicken/chicken.prefab";
-            string scientistPrefab = "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_junkpile_pistol.prefab";
+            if (!IsAdmin(player)) return null;
+            string target = "";
+            if (args.Length > 0)
+            {
+                target = args[0];
+            }
+            if (target.Length == 0) return null;
 
-            Vector3 pos = new Vector3(player.Position().X, player.Position().Y, player.Position().Z);
+            // TODO: remove next line
+            _config = Config.ReadObject<Configuration>();
+            if (!_config.spawnCommandData.ContainsKey(target)) return null;
+            string prefab = _config.spawnCommandData[target];
 
-            BaseEntity newEntity = GameManager.server.CreateEntity(boarPrefab, pos, new Quaternion());
+            Vector3 playerPosition = player.GetNetworkPosition();
+            float distance = 5f;
+            if (args.Length > 1)
+            {
+                distance = float.Parse(args[1]);
+            }
+            Vector3 spawnPosition = playerPosition + player.transform.forward * distance;
+            BaseEntity newEntity = GameManager.server.CreateEntity(prefab, spawnPosition, Quaternion.identity);
             newEntity.Spawn();
+            player.IPlayer.Reply($"Spawned {target} at {spawnPosition}, where player is at {playerPosition}");
+            return true;
         }
+
+        private object CommandCreate(BasePlayer player, string command, string[] args)
+        {
+            if (!IsAdmin(player)) return null;
+            string target = "";
+            if (args.Length > 0)
+            {
+                target = args[0];
+            }
+            if (target.Length == 0) return null;
+
+            int amount = 1;
+            if (args.Length > 1)
+            {
+                amount = int.Parse(args[1]);
+            }
+
+            // TODO: remove next line
+            _config = Config.ReadObject<Configuration>();
+            string name = _config.createCommandData.ContainsKey(target) ? _config.createCommandData[target] : target;
+            var item = ItemManager.CreateByName(name, amount);
+            player.inventory.GiveItem(item);
+            player.IPlayer.Reply($"Got {amount} {target}");
+            return true;
+        }
+
         #endregion
 
         #region Player
-
         void OnPlayerConnected(BasePlayer player)
         {
             Puts("OnPlayerConnected works!" + player._name);
@@ -219,7 +290,6 @@ namespace Oxide.Plugins
         {
             return dataFile.ReadObject<PlayerInfo>($"playerInfo_{playerId}");
         }
-
         private void SavePlayerInfo(string playerId, PlayerInfo playerInfo)
         {
             dataFile.WriteObject($"playerInfo_{playerId}", playerInfo);
@@ -229,7 +299,6 @@ namespace Oxide.Plugins
             Puts("OnPlayerSpawn works!");
             return null;
         }
-
         object OnPlayerRespawn(BasePlayer player, BasePlayer.SpawnPoint spawnPoint)
         {
             PlayerInfo playerInfo = LoadPlayerInfo(player.IPlayer.Id);
@@ -270,7 +339,6 @@ namespace Oxide.Plugins
             Puts("craft " + itemDefinition.shortname);
             return true;
         }
-
         bool CanDropActiveItem(BasePlayer player)
         {
             Puts("CanDropActiveItem works!");
@@ -297,7 +365,7 @@ namespace Oxide.Plugins
                     _config = Config.ReadObject<Configuration>();
                     float exp = _config.entityExpTable[entity.ShortPrefabName];
                     PlayerInfo playerInfo = LoadPlayerInfo(info.InitiatorPlayer.IPlayer.Id);
-                    playerInfo.gainExp(exp, info.InitiatorPlayer.IPlayer);
+                    playerInfo.gainExp(exp, info.InitiatorPlayer);
                     SavePlayerInfo(info.InitiatorPlayer.IPlayer.Id, playerInfo);
                 }
             }
@@ -316,25 +384,23 @@ namespace Oxide.Plugins
             {
                 this.nextLevelAt = GetNextExpForLevel(level);
             }
-
             public void SetHome(GenericPosition position)
             {
                 HomePosition = position;
             }
-            public void gainExp(float exp, IPlayer player)
+            public void gainExp(float exp, BasePlayer player)
             {
                 this.exp += exp;
                 if (this.exp >= nextLevelAt)
                 {
-                    player.Reply("You've gained " + exp + " experience points.");
-                    this.levelUp(player);
+                    player.IPlayer.Reply("You've gained " + exp + " experience points.");
+                    this.levelUp(player.IPlayer);
                 }
                 else
                 {
-                    player.Reply("You've gained " + exp + " experience points. " + (nextLevelAt - this.exp) + " untill next level");
+                    player.IPlayer.Reply("You've gained " + exp + " experience points. " + (nextLevelAt - this.exp) + " untill next level");
                 }
             }
-
             public void levelUp(IPlayer player)
             {
                 level += 1;
@@ -345,7 +411,6 @@ namespace Oxide.Plugins
                     levelUp(player);
                 }
             }
-
             private float GetNextExpForLevel(int level)
             {
                 return ((float)Math.Pow(level, 3) + 20 * level);
@@ -358,6 +423,11 @@ namespace Oxide.Plugins
         void ModifyItems()
         {
             ModifyWoodenArrow();
+        }
+
+        void OnWeaponFired(BaseProjectile projectile, BasePlayer player, ItemModProjectile mod)
+        {
+            Puts("OnWeaponFired works!" + mod.projectileVelocity + ", " + projectile.GetLocalVelocity());
         }
 
         void ModifyWoodenArrow()
@@ -373,7 +443,7 @@ namespace Oxide.Plugins
             {
                 Puts("no projectile");
             }
-            projectile.projectileVelocity = 100f;
+            projectile.projectileVelocity = 2f;
 
             Puts("arrow velocity " + projectile.projectileVelocity);
 
@@ -420,8 +490,6 @@ namespace Oxide.Plugins
                 Puts(mod.GetType().ToString());
 
             }
-
-
 
             Puts("done modifying wooden arrow");
         }
