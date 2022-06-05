@@ -26,7 +26,14 @@ namespace Oxide.Plugins
             }
             EnsureConfigIntegrity();
             dataFile = new DataFileSystem($"{Interface.Oxide.DataDirectory}\\player_info");
+
             Puts("Rustigy initialized");
+        }
+
+        void OnServerInitialized()
+        {
+            Puts("Server initialized");
+            ModifyItems();
         }
 
         object OnUserChat(IPlayer player, string message)
@@ -38,7 +45,7 @@ namespace Oxide.Plugins
 
         private class Configuration
         {
-            public List<int> notCraftableItems = new List<int>();
+            public List<string> notCraftableItems = new List<string>();
             public Dictionary<string, float> entityExpTable = new Dictionary<string, float>();
             public VersionNumber VersionNumber;
         }
@@ -79,6 +86,9 @@ namespace Oxide.Plugins
         {
             switch (command)
             {
+                case "stats":
+                    CommandStats(player.IPlayer, command, args);
+                    return true;
                 case "heal":
                     CommandHeal(player.IPlayer, command, args);
                     return true;
@@ -99,6 +109,15 @@ namespace Oxide.Plugins
                     return true;
                 default: return null;
             }
+        }
+
+        private void CommandStats(IPlayer player, string command, string[] args)
+        {
+            PlayerInfo playerInfo = LoadPlayerInfo(player.Id);
+            var level = playerInfo.level;
+            var exp = playerInfo.exp;
+            var nextLevelAt = playerInfo.nextLevelAt;
+            player.Reply("Level: " + level + ", exp: " + exp + ", next level at " + nextLevelAt + " exp");
         }
 
         private void CommandSetHome(IPlayer player, string command, string[] args)
@@ -166,12 +185,17 @@ namespace Oxide.Plugins
         }
         private void CommandSpawn(IPlayer player, string command, string[] args)
         {
-            string carPrefab = "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab";
+            string carPrefab1 = "assets/content/vehicles/modularcar/1module_car_spawned.entity.prefab";
+            string carPrefab2 = "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab";
+            string carPrefab3 = "assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab";
+            string carPrefab4 = "assets/content/vehicles/modularcar/4module_car_spawned.entity.prefab";
             string boatPrefab = "assets/content/vehicles/boats/rowboat/rowboat.prefab";
             string boarPrefab = "assets/rust.ai/agents/boar/boar.prefab";
+            string polarBearPrefab = "assets/rust.ai/agents/bear/polarbear.prefab";
             string stagPrefab = "assets/rust.ai/agents/stag/stag.prefab";
             string pr1 = "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab";
             string chickenPrefab = "assets/rust.ai/agents/chicken/chicken.prefab";
+            string scientistPrefab = "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_junkpile_pistol.prefab";
 
             Vector3 pos = new Vector3(player.Position().X, player.Position().Y, player.Position().Z);
 
@@ -221,28 +245,29 @@ namespace Oxide.Plugins
         }
         bool CanCraft(ItemCrafter itemCrafter, ItemBlueprint bp, int amount)
         {
-            foreach (var itemId in _config.notCraftableItems)
+            foreach (var name in _config.notCraftableItems)
             {
-                if (bp.targetItem.itemid == itemId)
+                if (bp.targetItem.shortname
+                    == name)
                 {
-                    Puts("Tried to craft forbidden item " + bp.targetItem.itemid);
+                    Puts("Tried to craft forbidden item " + bp.targetItem.shortname);
                     return false;
                 }
             }
-            Puts("item craft " + bp.targetItem.itemid);
+            Puts("item craft " + bp.targetItem.shortname);
             return true;
         }
         bool CanCraft(PlayerBlueprints playerBlueprints, ItemDefinition itemDefinition, int skinItemId)
         {
-            foreach (var itemId in _config.notCraftableItems)
+            foreach (var itemName in _config.notCraftableItems)
             {
-                if (itemDefinition.itemid == itemId)
+                if (itemDefinition.shortname == itemName)
                 {
-                    Puts("Tried to craft forbidden item " + itemDefinition.itemid);
+                    Puts("Tried to craft forbidden item " + itemDefinition.shortname);
                     return false;
                 }
             }
-            Puts("craft " + itemDefinition.itemid);
+            Puts("craft " + itemDefinition.shortname);
             return true;
         }
 
@@ -325,6 +350,80 @@ namespace Oxide.Plugins
             {
                 return ((float)Math.Pow(level, 3) + 20 * level);
             }
+        }
+
+        #endregion
+
+        #region Items
+        void ModifyItems()
+        {
+            ModifyWoodenArrow();
+        }
+
+        void ModifyWoodenArrow()
+        {
+            ItemDefinition arrow_wooden = ItemManager.FindItemDefinition("arrow.wooden");
+            if (arrow_wooden == null)
+            {
+                Puts("no arrow wooden");
+            }
+
+            var projectile = arrow_wooden.GetComponent<ItemModProjectile>();
+            if (projectile == null)
+            {
+                Puts("no projectile");
+            }
+            projectile.projectileVelocity = 100f;
+
+            Puts("arrow velocity " + projectile.projectileVelocity);
+
+            /*
+            ItemDefinition arrow_fire = ItemManager.FindItemDefinition("arrow.fire");
+            if (arrow_wooden == null)
+            {
+                Puts("no arrow fire");
+            }
+            var coocable = new ItemModCookable
+            {
+                becomeOnCooked = arrow_fire,
+                lowTemp = -1,
+                highTemp = -1
+            };
+            
+            arrow_wooden.itemMods = new ItemMod[] { coocable };
+            
+            var verified = arrow_wooden.GetComponent<ItemModCookable>();
+            Puts("arrow coocable verified: " + verified.becomeOnCooked.ToString() + " " + verified.lowTemp);
+
+            
+
+            
+            var concumable = arrow_wooden.gameObject.AddComponent<ItemModConsumable>();
+            if (concumable == null) return;
+
+            Puts("arrow concumable: " + concumable.ToString());
+            concumable.achievementWhenEaten = "arrow eater";
+            var effect = new ItemModConsumable.ConsumableEffect();
+            effect.type = MetabolismAttribute.Type.Bleeding;
+            concumable.effects.Add(effect);
+            Puts("arrow concumable: " + concumable.effects.Count + " " + concumable.achievementWhenEaten);
+            
+            */
+
+            var arrow_wooden_new = ItemManager.FindItemDefinition("arrow.wooden");
+
+            var mods = arrow_wooden_new.itemMods;
+            Puts("mods " + mods.Length);
+            foreach (var mod in mods)
+            {
+
+                Puts(mod.GetType().ToString());
+
+            }
+
+
+
+            Puts("done modifying wooden arrow");
         }
 
         #endregion

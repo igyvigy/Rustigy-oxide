@@ -1,6 +1,13 @@
 {
+  "admin": {
+	  "name": "igyVigy"",
+	  "steamId": "000"
+  },
+  "moderators": [
+	
+  ],
   "notCraftableItems": [
-    -1754948969
+    "sleepingbag"
   ],
   "entityExpTable": {
     "loot_barrel_1": 5.0,
@@ -19,10 +26,24 @@
     "stag": 50.0,
     "boar": 100.0,
     "wolf": 150.0,
-	"polarbear": 200.0,
-	"scientistnpc_junkpile_pistol": 500.0,
+    "polarbear": 200.0,
+    "scientistnpc_junkpile_pistol": 500.0
   },
-  "VersionNumber": {
+  "spawnCommandData": {
+	  "car1": "assets/content/vehicles/modularcar/1module_car_spawned.entity.prefab",
+	  "car2": "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab",
+	  "car3": "assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab",
+	  "car4": "assets/content/vehicles/modularcar/4module_car_spawned.entity.prefab",
+	  "rowboat": "assets/content/vehicles/boats/rowboat/rowboat.prefab",
+	  "balloon": "assets/prefabs/deployable/hot air balloon/hotairballoon.prefab",
+	  "chicken": "assets/rust.ai/agents/chicken/chicken.prefab",
+	  "stag": "assets/rust.ai/agents/stag/stag.prefab",
+	  "bear": "assets/rust.ai/agents/bear/bear.prefab",
+	  "boar": "assets/rust.ai/agents/boar/boar.prefab",
+	  "polarBear": "assets/rust.ai/agents/bear/polarbear.prefab",
+	  "scientist": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_junkpile_pistol.prefab"
+  },
+  "versionNumber": {
     "Major": 0,
     "Minor": 1,
     "Patch": 0

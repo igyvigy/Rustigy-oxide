@@ -1,0 +1,24 @@
+[SERVER v1.0.24] Started as service
+[SERVER v1.0.24] Running as service
+[SERVER v1.0.24] Got Message: Ready
+[SERVER v1.0.24] Got Message: Compile
+[SERVER v1.0.24] Console: Rustigy.cs(163,47): warning CS0168: The variable `e' is declared but never used
+Rustigy.cs(179,47): warning CS0168: The variable `e' is declared but never used
+Rustigy.cs(190,20): warning CS0219: The variable `carPrefab1' is assigned but its value is never used
+Rustigy.cs(191,20): warning CS0219: The variable `carPrefab2' is assigned but its value is never used
+Rustigy.cs(192,20): warning CS0219: The variable `carPrefab3' is assigned but its value is never used
+Rustigy.cs(193,20): warning CS0219: The variable `carPrefab4' is assigned but its value is never used
+Rustigy.cs(194,20): warning CS0219: The variable `boatPrefab' is assigned but its value is never used
+Rustigy.cs(196,20): warning CS0219: The variable `polarBearPrefab' is assigned but its value is never used
+Rustigy.cs(197,20): warning CS0219: The variable `stagPrefab' is assigned but its value is never used
+Rustigy.cs(198,20): warning CS0219: The variable `pr1' is assigned but its value is never used
+Rustigy.cs(199,20): warning CS0219: The variable `chickenPrefab' is assigned but its value is never used
+Rustigy.cs(200,20): warning CS0219: The variable `scientistPrefab' is assigned but its value is never used
+StackSizeController.cs(20,25): warning CS0649: Field `Oxide.Plugins.StackSizeController.GetToDaChoppa' is never assigned to, and will always have its default value `null'
+StackSizeController.cs(20,40): warning CS0649: Field `Oxide.Plugins.StackSizeController.VehicleVendorOptions' is never assigned to, and will always have its default value `null'
+StackSizeController.cs(80,25): warning CS0649: Field `Oxide.Plugins.StackSizeController.Configuration.HidePrefixWithPluginNameInMessages' is never assigned to, and will always have its default value `false'
+
+[SERVER v1.0.24] Got Message: Exit
+[SERVER v1.0.24] Exit received.
+[SERVER v1.0.24] Connection closed.
+[SERVER v1.0.24] Shutdown
